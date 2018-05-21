@@ -1,3 +1,30 @@
+/*
+  Template Name: OsteriaX
+  Author : MarkUps
+  Author URI: http://www.markups.io/
+  Version: 1.0
+  Tags: light, white, restaurant, multi page, landing page, custom-colors, Bootstrap, responsive, html5, css3, Sass, template, web template
+
+*/
+
+/* Table of Content
+==================================================
+#BASIC TYPOGRAPHY
+#HEADER SECTION
+#NAVBAR SECTION
+#SLIDER SECTION
+#ABOUT US SECTION
+#COUNTER SECTION
+#MENU ITEM SECTION
+#RESERVATION SECTION
+#GALLERY SECTION
+#TESTIMONIAL SECTION
+#CHEF SECTION
+#CONTACT SECTION
+#MAP SECTION
+#FOOTER SECTION
+#RESPONSIVE DESIGN
+*/
 
 body {
   background-color: #ffffff;
@@ -666,7 +693,7 @@ img {
 
 .mu-menu-item-nav li .media .media-body .media-heading {
   font-size: 20px;
-  margin-bottom: 10px;
+  /*margin-bottom: 10px;*/
 }
 
 .mu-menu-item-nav li .media .media-body .media-heading a {
@@ -682,6 +709,8 @@ img {
   font-weight: bold;
   letter-spacing: 1.5px;
   line-height: 20px;
+
+
 }
 
 .mu-menu-item-nav li .media .media-body p {
@@ -976,7 +1005,7 @@ RESERVATION SECTION
 ====================*/
 
 #mu-client-testimonial {
-  background-image: url("assets/img/testimonial-bg.jpg");
+  /*background-image: url("assets/img/testimonial-bg.jpg");*/
   background-size: cover;
   background-attachment: fixed;
   display: inline;
@@ -1047,7 +1076,7 @@ RESERVATION SECTION
 }
 
 .mu-testimonial-slider li .mu-testimonial-single .mu-testimonial-info p:before {
-  content: '\f10e';
+  /*content: '\f10e';*/
   font-family: fontAwesome;
   font-size: 50px;
   left: 1%;
@@ -1188,6 +1217,11 @@ RESERVATION SECTION
 .mu-chef-nav .slick-list li .mu-single-chef .mu-single-chef-info span {
   font-size: 14px;
   letter-spacing: 0.5px;
+}
+
+.media-heading .mu-menu-price{
+  position: absolute;
+  right: 35px;
 }
 
 .mu-chef-nav .slick-list li .mu-single-chef .mu-single-chef-social {
@@ -1658,6 +1692,7 @@ RESERVATION SECTION
     top: 20%;
   }
 
+
   .mu-top-slider .mu-top-slider-single .mu-top-slider-content p {
     display: none;
   }
@@ -1714,6 +1749,8 @@ RESERVATION SECTION
     font-size: 22px;
     line-height: 30px;
   }
+
+
 
   .mu-top-slider .mu-top-slider-single .mu-top-slider-content .mu-slider-small-title {
     font-size: 30px;
@@ -1808,4 +1845,28 @@ RESERVATION SECTION
   }
 
 
+}
+
+
+
+
+
+.thumbnail {
+  position: relative;
+  padding: 0px;
+  margin-bottom: 20px;
+}
+
+.thumbnail img {
+  width: 265px;
+  height: 275px;
+}
+
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+  border: none;
 }
