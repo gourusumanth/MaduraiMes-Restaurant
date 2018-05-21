@@ -33,7 +33,6 @@ import {AboutusComponent} from './Aboutus/aboutus.component';
       { path: 'home', component: HomeComponent },
       { path: 'menu', component: MenuComponent },
       { path: 'gallery', component: GalleryComponent },
-      { path: 'chefs', component: ChefsComponent },
       { path: 'contact', component: ContactComponent },
       { path: 'aboutus', component: AboutusComponent },
       // { path: 'testimonials', component: TestimonialsComponent },
